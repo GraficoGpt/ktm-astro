@@ -1,0 +1,81 @@
+<div class="banner-call">
+    <h2>Únete al team <span>KTM Venezuela</span></h2>
+    <div class="banner-items">
+        <div class="banner-item">
+            <div class="item-indicator"></div>Preventas exclusivas
+        </div>
+        <div class="banner-item">
+            <div class="item-indicator"></div>Tarifas especiales
+        </div>
+        <div class="banner-item">
+            <div class="item-indicator"></div>Eventos KTM
+        </div>
+    </div>
+    <div class="banner-button-box">
+        <a
+            class="button-call"
+            href="https://forms.office.com/r/f7NhRAEZg3"
+            target="_blank"
+            id="callToAction"
+            >Déjanos tus datos
+        </a>
+    </div>
+</div>
+
+<style lang="scss">
+    .banner-call {
+        background-color: var(--black-color);
+        padding: 8rem 3rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+            font-family: "Blender Pro Book";
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 4.5rem;
+            span {
+                font-family: "Blender Pro";
+                font-weight: 900;
+                color: #ff6000;
+            }
+        }
+        .banner-items {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner-item {
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.5rem;
+            font-family: "Blender Pro Book";
+            text-transform: uppercase;
+            letter-spacing: 0.3rem;
+            .item-indicator {
+                width: 10px;
+                height: 10px;
+                background-color: #ff6000;
+                margin-left: 1rem;
+            }
+        }
+    }
+    .banner-button-box {
+        margin-top: 2rem;
+        padding: 2rem;
+        padding-bottom: 0rem;
+        .button-call {
+            display: flex;
+            background-color: var(--orange-color);
+            padding: 1rem 3rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "Blender Pro";
+            font-weight: 900;
+            color: var(--white-color);
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+    }
+</style>

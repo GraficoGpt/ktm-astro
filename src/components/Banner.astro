@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="banner-bike">
+        <div class="banner-bike-text-box">
+            <div class="text-box-items">
+                <span class="duke">KTM</span>
+                <span class="duke-ref">390</span>
+                <span class="duke-copy">Duke</span>
+            </div>
+        </div>
+        <div class="banner-bike-image">
+            <img src="/images/duke390.jpg" alt="" />
+        </div>
+    </div>
+</div>
+
+<style lang="scss">
+    .banner-bike {
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .banner-bike-text-box {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        .duke {
+            display: flex;
+            color: #ff6600;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 5rem;
+            line-height: 55px;
+        }
+        .duke-ref {
+            display: flex;
+            color: #232428;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 10rem;
+            letter-spacing: 5px;
+            line-height: 120px;
+        }
+        .duke-copy {
+            font-family: "Blender Pro Book";
+            display: flex;
+            color: var(--black-color);
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 4.5rem;
+            line-height: 60px;
+        }
+    }
+    .banner-bike-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+</style>
